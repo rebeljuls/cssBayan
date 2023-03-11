@@ -1,0 +1,23 @@
+
+
+
+
+
+
+.mem-phrase{
+    cursor: pointer;
+}
+
+.input-mem {
+   
+    -webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+}
+
+.input-mem:checked ~ .img-mem {
+    display: block;
+}
+.img-mem {
+    display: none;
+}
