@@ -1,6 +1,88 @@
+/* balsamiq-sans-regular - cyrillic_latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Balsamiq Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/balsamiq-sans-v10-cyrillic_latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('../fonts/balsamiq-sans-v10-cyrillic_latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* balsamiq-sans-italic - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Balsamiq Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/balsamiq-sans-v10-cyrillic_latin-italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('../fonts/balsamiq-sans-v10-cyrillic_latin-italic.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* balsamiq-sans-700 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Balsamiq Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/balsamiq-sans-v10-cyrillic_latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('../fonts/balsamiq-sans-v10-cyrillic_latin-700.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* balsamiq-sans-700italic - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Balsamiq Sans';
+    font-style: italic;
+    font-weight: 700;
+    src: url('../fonts/balsamiq-sans-v10-cyrillic_latin-700italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('../fonts/balsamiq-sans-v10-cyrillic_latin-700italic.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+html{
+box-sizing: border-box;
+scroll-behavior: smooth;
+overflow-x: hidden;
+background-attachment: scroll;
 
 
 
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Inika';
+    font-style: normal;
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: rgb(65, 65, 192);
+    overflow-x: hidden;
+    background-attachment: scroll;     
+}
+
+body {
+
+    margin-left: 35%;
+    margin-right: 35%;
+
+
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+.mem-item {
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: 40px;
+}
+
+.mem-item:last-child{
+    font-style: italic;
+}
 
 
 
