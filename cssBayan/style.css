@@ -175,6 +175,7 @@ height: 0 auto;
 .img-mem:hover, .img-mem:focus, .img-mem:active {
     background-color:rgb(224, 226, 236)  ;
 }
+
 .img {
     display: block;
     margin-left: auto;
